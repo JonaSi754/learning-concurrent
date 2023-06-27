@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="chapter01" />
         <module name="chapter02" />
-        <module name="chapter04-concurrent set" />
+        <module name="chapter04-concurrent list" />
         <module name="chapter03" />
       </profile>
     </annotationProcessing>
@@ -16,7 +16,7 @@
       <module name="chapter01" target="8" />
       <module name="chapter02" target="8" />
       <module name="chapter03" target="8" />
-      <module name="chapter04-concurrent set" target="8" />
+      <module name="chapter04-concurrent list" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
