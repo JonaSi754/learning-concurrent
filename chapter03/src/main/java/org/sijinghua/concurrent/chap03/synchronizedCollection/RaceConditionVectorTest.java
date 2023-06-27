@@ -81,7 +81,7 @@ public class RaceConditionVectorTest {
         System.out.println("输出的元素 ===>> " + str);
     }
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         new Thread(RaceConditionVectorTest::ergodicArrayList, "read-thread").start();
         new Thread(RaceConditionVectorTest::removeElement, "write-thread").start();
     }
